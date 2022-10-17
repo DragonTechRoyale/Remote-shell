@@ -226,6 +226,7 @@ def path_leaf(path):
 
 
 def main():
+    print("Server ip addr: "+__IP)
     # init client connection
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.bind((__IP, __PORT))
